@@ -12,6 +12,7 @@ end
 --// Settings
 WAVES.HEIGHT = 25
 WAVES.Waves = {
+	--// Warning: Directions which compose of >=1's or <=-1's will have unexpected effects...
 	newWaveOptions({
 		waveLength = 35;
 		amplitude  = 1.5;
