@@ -7,17 +7,13 @@ Feel free to use them whilst abiding by the license of this repository
 
 > __**The projects below are all using the modules in this repository**__
 
-
-
 # Ocean
 ![Water benchmark](https://user-images.githubusercontent.com/81488914/113968432-fae08a80-982a-11eb-97db-2a99281fdfae.png)
 [Water gif (gyazo)](https://i.gyazo.com/e5f71390cb16ed65216e265e9ca0b6ac.mp4)
 
-
 **Modules:**
 - Waves
 - Chunks
-
 
 **Overview:**
 
