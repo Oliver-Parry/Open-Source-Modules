@@ -46,8 +46,7 @@ CHUNKS.findNearestChunks = function(self, Chunk)
 end
 
 CHUNKS.findNearestChunksWithDirection = function(self, Chunk, DirectionX, DirectionZ)
-	local RoundedX, RoundedZ = round(DirectionX), round(DirectionZ)
-	RoundedX, RoundedZ = RoundedX - 1, RoundedZ - 1
+	local RoundedX, RoundedZ = round(DirectionX) - 1, round(DirectionZ) - 1
 	local Chunks = {}
 	for Row = 0, self.CHUNK_ROOT_MINUS_1 do
 		Chunks[Row] = {}
